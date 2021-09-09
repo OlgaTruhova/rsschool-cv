@@ -8,17 +8,19 @@
 * HTML5 ![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/circle.png)  
 * CSS3 ![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/circle.png)  
 * SCSS, SASS ![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/circle.png)![img](./img/circle.png)  
-* JavaScript ![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](\./img/circle.png)![img](./img/circle.png)  
+* JavaScript ![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/circle.png)![img](./img/circle.png)  
 * React JS ![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/circle.png)![img](./img/circle.png)  
 * Git, GitHub ![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/circle.png)![img](./img/circle.png)
 ***
 
 ## E D U C A T I O N:
+* RS School - course JavaScript/Front-end  
+09/2021 - ...
 * IT STEP Computer Academy - course FRONT-END DEVELOPMENT  
-2020 - 2021
+09/2020 - 06/2021
 * Gomel State Technical University named after P.O. Sukhogo -  
 Economics and Enterprise Management, Economist-Manager  
-2004 - 2010
+09/2004 - 06/2010
 ***
 
 ## E X P E R I E N C E:  
@@ -45,8 +47,3 @@ https://github.com/OlgaTruhova/my-project-BeautyHouse
 ## L A N G U A G E S:  
 * Russian - Native   
 * English - A2 (Elementary)
-
-
-
-
-
