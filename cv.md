@@ -1,17 +1,16 @@
-<!-- <img src="file:///D:/RS-School/rsschool-cv/img/my_foto.jpg" /> -->
-![img](\img\my_foto.jpg)
+![img](./img/my_foto.jpg)
 ## __Volha Trukhava__
 ### Junior FRONT-END Developer
 ***
 ***
 
 ## S K I L L S:
-* HTML5 ![img](\img\dot.png)![img](\img\dot.png)![img](\img\dot.png)![img](\img\dot.png)![img](\img\circle.png)  
-* CSS3 ![img](\img\dot.png)![img](\img\dot.png)![img](\img\dot.png)![img](\img\dot.png)![img](\img\circle.png)  
-* SCSS, SASS ![img](\img\dot.png)![img](\img\dot.png)![img](\img\dot.png)![img](\img\circle.png)![img](\img\circle.png)  
-* JavaScript ![img](\img\dot.png)![img](\img\dot.png)![img](\img\dot.png)![img](\img\circle.png)![img](\img\circle.png)  
-* React JS ![img](\img\dot.png)![img](\img\dot.png)![img](\img\dot.png)![img](\img\circle.png)![img](\img\circle.png)  
-* Git, GitHub ![img](\img\dot.png)![img](\img\dot.png)![img](\img\dot.png)![img](\img\circle.png)![img](\img\circle.png)
+* HTML5 ![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/circle.png)  
+* CSS3 ![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/circle.png)  
+* SCSS, SASS ![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/circle.png)![img](./img/circle.png)  
+* JavaScript ![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](\./img/circle.png)![img](./img/circle.png)  
+* React JS ![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/circle.png)![img](./img/circle.png)  
+* Git, GitHub ![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/circle.png)![img](./img/circle.png)
 ***
 
 ## E D U C A T I O N:
@@ -26,6 +25,14 @@ Economics and Enterprise Management, Economist-Manager
 ***
 
 ## C O N T A C T S: 
+* ![img](./img/phone.png) +375 (29) 690-70-72
+* ![img](./img/email.png) truhovaolga911@gmail.com
+* ![img](./img/Skype.png) Ольга Трухова
+* ![img](./img/linkedIn.png) https://www.linkedin.com/in/volha-trukhava-461b76214  
+* ![img](./img/github.png) @OlgaTruhova
+* ![img](./img/Location.png) Беларусь, Гомель
+
+
 ***
 
 ## L A N G U A G E S:  
