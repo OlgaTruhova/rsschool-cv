@@ -21,18 +21,25 @@ Economics and Enterprise Management, Economist-Manager
 2004 - 2010
 ***
 
-## E X P E R I E N C E:
+## E X P E R I E N C E:  
+### Implementing educational projects:  
+* Pizza order constructor (JS)  
+https://github.com/OlgaTruhova/project-Pizza  
+* 'Rock-Paper-Scissors' Game (JS)  
+https://github.com/OlgaTruhova/KNB  
+* Site layout (HTML, SCSS)  
+https://github.com/OlgaTruhova/HTML-CSS  
+* Web application 'BeautyHouse' (React)  
+https://github.com/OlgaTruhova/my-project-BeautyHouse
 ***
 
 ## C O N T A C T S: 
 * ![img](./img/phone.png) +375 (29) 690-70-72
 * ![img](./img/email.png) truhovaolga911@gmail.com
 * ![img](./img/Skype.png) Ольга Трухова
-* ![img](./img/linkedIn.png) https://www.linkedin.com/in/volha-trukhava-461b76214  
-* ![img](./img/github.png) @OlgaTruhova
+* ![img](./img/linkedIn.png) [Volha Trukhava](https://www.linkedin.com/in/volha-trukhava-461b76214/)  
+* ![img](./img/github.png) [@OlgaTruhova](https://github.com/OlgaTruhova)
 * ![img](./img/Location.png) Беларусь, Гомель
-
-
 ***
 
 ## L A N G U A G E S:  
@@ -42,9 +49,4 @@ Economics and Enterprise Management, Economist-Manager
 
 
 
-
-
-
-
-<!-- ![](D:RS-School\rsschool-cv\img\my_foto.jpd) -->
 
