@@ -5,7 +5,7 @@
 ***
 
 ## S K I L L S:
-* HTML5 ![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/circle.png)  
+* HTML5 ![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/circle.png) 
 * CSS3 ![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/circle.png)  
 * SCSS, SASS ![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/circle.png)![img](./img/circle.png)  
 * JavaScript ![img](./img/dot.png)![img](./img/dot.png)![img](./img/dot.png)![img](./img/circle.png)![img](./img/circle.png)  
@@ -42,6 +42,13 @@ https://github.com/OlgaTruhova/my-project-BeautyHouse
 * ![img](./img/linkedIn.png) [Volha Trukhava](https://www.linkedin.com/in/volha-trukhava-461b76214/)  
 * ![img](./img/github.png) [@OlgaTruhova](https://github.com/OlgaTruhova)
 * ![img](./img/Location.png) Беларусь, Гомель
+***
+
+## A B O U T __ M Y S E L F:  
+* Communicative  
+* Responsible  
+* Result-oriented  
+* I am able to work in a team
 ***
 
 ## L A N G U A G E S:  
