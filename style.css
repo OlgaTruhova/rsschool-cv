@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper-cv {
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(111, 58, 116);
+}
+
+main {
+    display: flex;
+}
+
+.block-one {
+    width: 40%;
+}
+
+.block-two {
+    width: 60%;
+}
+
+.my-foto {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.my-foto img {
+    width: 100%;
+    display: block;
+}
+
+.name-job{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-flow: column;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+}
+
+.name {
+    font-size: 60px;
+}
+
+.job {
+    font-size: 30px;
+}
+
+.zaglushka {
+    width: 90%;
+    margin: 20px auto 0;
+    background-color: rgb(224, 217, 188);
+    height: 30px;
+}
+
+.education-text, .experience-text, .code-example-text, .languages-text {
+    width: 95%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: rgb(157, 185, 101);
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: rgb(111, 58, 116);;
+}
+
+.education, .experience, .code-example, .languages {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(224, 217, 188);
+    display: flex;
+    flex-flow: column;
+    padding: 10px 30px;
+}
+
+.education span, .experience span, .experience a, .code-example span, .languages span {
+    padding: 10px 0;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.experience span {
+    font-weight: bold;
+}
+
+.experience a {
+    text-decoration: none;
+}
+
+.code-example-code {
+    font-size: 15px;
+}
