@@ -158,7 +158,6 @@ h1 {
 }
 
 .experience a {
-    /* border: 1px solid rgb(129, 126, 113); */
     background-color: rgb(216, 209, 184);
     width: 70%;
     margin: 15px auto;
@@ -243,6 +242,11 @@ footer img {
 }
 
 @media screen and (max-width: 950px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .skills li, .contacts li {
         width: 100%;
     }
@@ -253,11 +257,6 @@ footer img {
 }
 
 @media screen and (max-width: 880px) {
-    header {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
     .my-foto {
         min-width: 200px;
         min-height: 200px;
