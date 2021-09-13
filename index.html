@@ -14,7 +14,7 @@
     <div class="wrapper-cv">
         <header>
             <div class="my-foto">
-                <img src="./img/my_foto.jpg" alt="img">
+                <img src="./img/foto-cv.jpg" alt="img">
             </div>
             <div class="menu">
                 <div class="name-job">
@@ -22,7 +22,7 @@
                     <span class="job">Junior FRONT-END Developer</span>
                 </div>
                 <nav class="nav-menu">
-                    <a href="">ABOUT MYSELF</a>
+                    <a href="#about-myself">ABOUT MYSELF</a>
                     <a href="#skills">SKILLS</a>
                     <a href="#education">EDUCATION</a>
                     <a href="#experience">EXPERIENCE</a>
@@ -33,7 +33,9 @@
             </div>
         </header>
         <main>
-            <div class="skillst-text" id="skills"><span>S K I L L S</span></div>
+            <div class="skills-text" id="skills">
+                <img src="./img/technical-skills.png" alt="img">
+                <span>S K I L L S</span></div>
             <ul class="skills">
                 <li>
                     <span>HTML5</span>
@@ -60,23 +62,28 @@
                     <div class="skill-github"></div>
                 </li>
             </ul>
-            <div class="education-text" id="education"><span>E D U C A T I O N</span></div>
+            <div class="education-text" id="education">
+                <img src="./img/education-html.png" alt="img">
+                <span>E D U C A T I O N</span></div>
             <div class="education">
                 <span>
-                    RS School - course JavaScript/Front-end<br>
+                    <strong>RS School</strong> - course JavaScript/Front-end<br>
                     09/2021 - ...
                 </span>
                 <span>
-                    IT STEP Computer Academy - course FRONT-END DEVELOPMENT<br>
+                    <strong>IT STEP Computer Academy</strong> - course FRONT-END DEVELOPMENT<br>
                     09/2020 - 06/2021
                 </span>
                 <span>
-                    Gomel State Technical University named after P.O. Sukhogo -
+                    <strong>Gomel State Technical University named after P.O. Sukhogo</strong> -
                     Economics and Enterprise Management, Economist-Manager<br>
                     09/2004 - 06/2010
                 </span>
             </div>
-            <div class="experience-text" id="experience"><span>E X P E R I E N C E</span></div>
+            <div class="experience-text" id="experience">
+                <img src="./img/experience-comp.png" alt="img">
+                <span>E X P E R I E N C E</span>
+            </div>
             <div class="experience">
                 <h1>Implementing educational projects:</h1>
                 <a href="https://github.com/OlgaTruhova/HTML-CSS" target="_blank">
@@ -96,22 +103,47 @@
                     <img src="./img/my-project.png" alt="img">
                 </a>
             </div>
-            <div class="code-exemple-text" id="code-exemple"><span>C O D E __ E X A M P L E</span></div>
+            <div class="code-exemple-text" id="code-exemple">
+                <img src="./img/code-exemple.png" alt="img">
+                <span>C O D E __ E X A M P L E</span>
+            </div>
             <div class="code-exemple">
                 <span>You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.</span>
-                <pre><code class="html">
-                    if (s.length % 2 !== 0) {
-                        return s[Math.floor(s.length/2)]
-                    } else {
-                        return s[s.length/2-1] + s[s.length/2]
-                    }</code></pre>
+                <pre><code>
+                    function (str) {
+                        if (str.length % 2 !== 0) {
+                            return str[Math.floor(str.length/2)]
+                        } else {
+                            return str[str.length/2-1] + str[str.length/2]
+                        }
+                    }
+
+                    function ('abcdef')
+                </code></pre>
             </div>
-            <div class="languages-text" id="languages"><span>L A N G U A G E S</span></div>
+            <div class="about-myself-text" id="about-myself">
+                <img src="./img/about-myself.png" alt="img">
+                <span>A B O U T __ M Y S E L F</span>
+            </div>
+            <div class="about-myself">
+                <span>Communicative</span>
+                <span>Responsible</span>
+                <span>Goal-oriented</span>
+                <span>Proactive</span>
+                <span>Team player</span>
+            </div>
+            <div class="languages-text" id="languages">
+                <img src="./img/languages.png" alt="img">
+                <span>L A N G U A G E S</span>
+            </div>
             <div class="languages">
                 <span>Russian - Native</span>
                 <span>English - A2 (Elementary)</span>
             </div>
-            <div class="contacts-text" id="contacts"><span>C O N T A C T S</span></div>
+            <div class="contacts-text" id="contacts">
+                <img src="./img/contacts.png" alt="img">
+                <span>C O N T A C T S</span>
+            </div>
             <ul class="contacts">
                 <li>
                     <img src="./img/telephone.png" alt="img">
@@ -139,6 +171,11 @@
                 </li>
             </ul>
         </main>
+        <footer>
+            <a href="https://github.com/OlgaTruhova">@OlgaTruhova</a>
+            <span>Sep 2021</span>
+            <a href="https://rs.school/js/" target="_blank"><img src="./img/rs_school.svg" alt="img"></a>
+        </footer>
     </div>
 </body>
 </html>
