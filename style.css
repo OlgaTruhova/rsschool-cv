@@ -5,6 +5,10 @@
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: rgb(224, 217, 188);
+}
+
 .wrapper-cv {
     width: 70%;
     margin: 0 auto;
