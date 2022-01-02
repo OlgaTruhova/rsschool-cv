@@ -1,0 +1,328 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(224, 217, 188);
+}
+
+.wrapper-cv {
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(111, 58, 116);
+}
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.back_to_top {
+    position: fixed;
+    bottom: 60px;
+    right: 100px;
+    z-index: 9999;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 10px solid rgb(111, 58, 116);
+    font-size: 25px;
+    padding-top: 15px;
+    text-align: center;
+    background: #ffffff;
+    color: rgb(84, 34, 90);
+    cursor: pointer;
+    display: none;
+}
+  
+.back_to_top:hover {
+    background: rgba(80, 87, 121, 0.7);
+    color: #ffffff;
+}
+
+.back_to_top-show {
+    display: block;
+}
+
+.my-foto {
+    width: 300px;
+    min-width: 300px;
+    height: 300px;
+    min-height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.my-foto img {
+    width: 100%;
+    display: block;
+}
+
+.name-job {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name, .job {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    width: 100%;
+    font-size: 60px;
+    color: rgb(224, 217, 188);
+    padding: 0 10px;
+}
+
+.job {
+    font-size: 30px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(157, 185, 101);
+}
+
+.nav-menu li {
+    list-style-type: none;
+}
+
+.nav-menu a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(111, 58, 116);
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.nav-menu a:hover {
+    background-color: rgb(218, 255, 151);
+}
+
+.skills-text, .education-text, .experience-text, .code-exemple-text, .languages-text, .contacts-text, .about-myself-text {
+    width: 50%;
+    height: 50px;
+    background-color: rgb(157, 185, 101);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    box-shadow: 5px -5px 4px rgba(66, 65, 65, 0.7);
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: rgb(111, 58, 116);
+}
+
+.skills-text img, .education-text img, .experience-text img, .code-exemple-text img, 
+.about-myself-text img, .languages-text img, .contacts-text img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.skills, .education, .experience, .code-exemple, .languages, .contacts, .about-myself {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(224, 217, 188);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-shadow: 7px -7px 4px rgba(66, 65, 65, 0.7);
+}
+
+.skills li, .contacts li {
+    width: 50%;
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.skills span, .education div, .experience span, .code-exemple span, 
+.languages span, .contacts span, .contacts a, .about-myself span, footer a, footer span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: rgb(111, 58, 116);
+}
+
+.education div {
+    padding: 10px 0;
+}
+
+.languages span, .experience span {
+    width: 100%;
+}
+
+.contacts span, .contacts a {
+    padding-left: 10px;
+}
+
+.skill-html, .skill-CSS, .skill-scss-sass, .skill-javascript, .skill-reactjs, .skill-github {
+    width: 90%;
+    height: 10px;
+    background: linear-gradient(to left, rgb(157, 185, 101) 15%, rgb(75, 109, 7) 15%);
+    border-radius: 10px;
+}
+
+.skill-scss-sass, .skill-javascript, .skill-reactjs, .skill-github {
+    background: linear-gradient(to left, rgb(157, 185, 101) 30%, rgb(75, 109, 7) 30%);
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(111, 58, 116);
+}
+
+.experience a, .contacts li {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.experience a {
+    background-color: rgb(216, 209, 184);
+    width: 70%;
+    margin: 15px auto;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 6px -6px 8px rgba(133, 133, 133, 0.7);
+}
+
+.experience img {
+    width: 80%;
+}
+
+.experience img:hover {
+    transform: scale(1.1);
+}
+
+.experience span {
+    padding-bottom: 10px;
+}
+
+pre {
+	width: 100%;
+    overflow: auto;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+	border: 1px solid #777;
+}
+
+.contacts li, .about-myself span {
+    width: 50%;
+    align-items: center;
+}
+
+.contacts img {
+    width: 30px;
+}
+
+.contacts a, footer a {
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(157, 185, 101);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer img {
+    width: 100px;
+    margin: 10px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .name {
+        font-size: calc(30px + (60 - 30) * ((100vw - 320px) / (1200 - 320)));
+    }
+
+    .job {
+        font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+    }
+
+    .my-foto {
+        width: calc(200px + (300 - 200) * ((100vw - 320px) / (1200 - 320)));
+        height: calc(200px + (300 - 200) * ((100vw - 320px) / (1200 - 320)));
+        margin: calc(10px + (20 - 10) * ((100vw - 320px) / (1200 - 320)));
+    }
+
+    .skills-text, .education-text, .experience-text, .code-exemple-text, .languages-text, .contacts-text, .about-myself-text {
+        height: calc(35px + (50 - 35) * ((100vw - 320px) / (1200 - 320)));
+        font-size: calc(15px + (25 - 15) * ((100vw - 320px) / (1200 - 320)));
+        min-width: 230px;
+    }
+
+    h1 {
+        font-size: calc(20px + (32 - 20) * ((100vw - 320px) / (1200 - 320)));
+    }
+
+    h2 {
+        font-size: calc(15px + (25 - 15) * ((100vw - 320px) / (1200 - 320)));
+    }
+
+    .back_to_top {
+        right: calc(60px + (100 - 60) * ((100vw - 320px) / (1200 - 320)));;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skills li, .contacts li {
+        width: 100%;
+    }
+
+    .contacts span, .contacts a {
+        font-size: calc(15px + (18 - 15) * ((100vw - 320px) / (1200 - 320)));
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .my-foto {
+        min-width: 200px;
+        min-height: 200px;
+    }
+
+    .about-myself span {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper-cv {
+        width: 100%;
+    }
+
+    .experience a {
+        width: 90%;
+    }
+
+    footer span, footer a {
+        font-size: calc(15px + (18 - 15) * ((100vw - 320px) / (1200 - 320)));
+    }
+}
