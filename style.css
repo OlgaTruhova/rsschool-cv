@@ -5,80 +5,105 @@
     scroll-behavior: smooth;
 }
 
-.wrapper-cv {
-    width: 70%;
-    margin: 0 auto;
+body {
     background-color: rgb(111, 58, 116);
 }
 
-header {
-    width: 100%;
-    display: flex;
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
-.menu {
+.wrapper-header {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    justify-content: space-evenly;
 }
 
 .my-foto {
-    width: 300px;
-    min-width: 300px;
-    height: 300px;
-    min-height: 300px;
+    width: calc(150px + (300 - 150) * ((100vw - 320px) / (1440 - 320)));
+    min-width: 190px;
+    height: calc(150px + (300 - 150) * ((100vw - 320px) / (1440 - 320)));
+    min-height: 190px;
     border-radius: 50%;
     overflow: hidden;
-    margin: 20px;
+    margin: 10px;
 }
 
 .my-foto img {
     width: 100%;
-    display: block;
-}
-
-.name-job {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.name, .job {
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    width: 100%;
-    font-size: 60px;
-    color: rgb(224, 217, 188);
-    padding: 0 10px;
-}
-
-.job {
-    font-size: 30px;
 }
 
 .nav-menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 100%;
+    align-items: center;
     background-color: rgb(157, 185, 101);
+    padding: 5px 0;
+}
+
+.nav-menu li {
+    list-style-type: none;
 }
 
 .nav-menu a {
     font-family: 'Oswald', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
     color: rgb(111, 58, 116);
     font-weight: bold;
-    text-align: center;
-    padding: 5px 10px;
+    padding: 5px 7px;
 }
 
 .nav-menu a:hover {
     background-color: rgb(218, 255, 151);
 }
 
-.skills-text, .education-text, .experience-text, .code-exemple-text, .languages-text, .contacts-text, .about-myself-text {
+.menu {
+    padding-top: 5%;
+}
+
+h1, h3 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    width: 100%;
+    font-size: calc(40px + (70 - 40) * ((100vw - 320px) / (1440 - 320)));
+    color: rgb(224, 217, 188);
+    padding: 0 10px;
+}
+
+h3 {
+    font-size: calc(20px + (40 - 20) * ((100vw - 320px) / (1440 - 320)));
+}
+
+.back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: calc(20px + (50 - 20) * ((100vw - 320px) / (1440 - 320)));
+    z-index: 9999;
+    width: calc(60px + (80 - 60) * ((100vw - 320px) / (1440 - 320)));
+    height: calc(60px + (80 - 60) * ((100vw - 320px) / (1440 - 320)));
+    border-radius: 50%;
+    border: 10px solid rgb(157, 185, 101);
+    font-size: calc(15px + (25 - 15) * ((100vw - 320px) / (1440 - 320)));
+    padding-top: calc(10px + (15 - 10) * ((100vw - 320px) / (1440 - 320)));
+    text-align: center;
+    background: #ffffff;
+    color: rgb(84, 34, 90);
+    cursor: pointer;
+    display: none;
+}
+  
+.back_to_top:hover {
+    background: rgb(224, 217, 188);
+    color: #ffffff;
+}
+
+.back_to_top-show {
+    display: block;
+}
+
+.heading {
     width: 50%;
     height: 50px;
     background-color: rgb(157, 185, 101);
@@ -87,15 +112,17 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 25px;
-    color: rgb(111, 58, 116);
     margin-top: 50px;
     box-shadow: 5px -5px 4px rgba(66, 65, 65, 0.7);
 }
 
-.skills-text img, .education-text img, .experience-text img, .code-exemple-text img, 
-.about-myself-text img, .languages-text img, .contacts-text img {
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: calc(15px + (25 - 15) * ((100vw - 320px) / (1440 - 320)));
+    color: rgb(111, 58, 116);
+}
+
+.heading img {
     width: 30px;
     margin: 0 10px;
 }
@@ -123,7 +150,12 @@ header {
     color: rgb(111, 58, 116);
 }
 
+.experience {
+    justify-content: center;
+}
+
 .education div {
+    width: 100%;
     padding: 10px 0;
 }
 
@@ -146,7 +178,9 @@ header {
     background: linear-gradient(to left, rgb(157, 185, 101) 30%, rgb(75, 109, 7) 30%);
 }
 
-h1 {
+h4 {
+    width: 100%;
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     color: rgb(111, 58, 116);
 }
@@ -159,8 +193,8 @@ h1 {
 
 .experience a {
     background-color: rgb(216, 209, 184);
-    width: 70%;
-    margin: 15px auto;
+    width: 47%;
+    margin: 10px;
     padding: 15px;
     justify-content: center;
     text-align: center;
@@ -201,82 +235,45 @@ pre {
     text-decoration: none;
 }
 
-footer {
+.wrapper-footer {
     width: 100%;
     background-color: rgb(157, 185, 101);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-footer img {
+.wrapper-footer img {
     width: 100px;
     margin: 10px;
 }
 
-
-@media screen and (max-width: 1200px) {
-    .name {
-        font-size: calc(30px + (60 - 30) * ((100vw - 320px) / (1200 - 320)));
+@media screen and (max-width: 900px) {
+    .experience a {
+        width: 100%;
     }
+}
 
-    .job {
-        font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+@media screen and (max-width: 768px) {
+    .wrapper-header {
+        flex-wrap: wrap;
     }
-
-    .my-foto {
-        width: calc(200px + (300 - 200) * ((100vw - 320px) / (1200 - 320)));
-        height: calc(200px + (300 - 200) * ((100vw - 320px) / (1200 - 320)));
-        margin: calc(10px + (20 - 10) * ((100vw - 320px) / (1200 - 320)));
-    }
-
-    .skills-text, .education-text, .experience-text, .code-exemple-text, .languages-text, .contacts-text, .about-myself-text {
+    .heading {
         height: calc(35px + (50 - 35) * ((100vw - 320px) / (1200 - 320)));
         font-size: calc(15px + (25 - 15) * ((100vw - 320px) / (1200 - 320)));
         min-width: 230px;
     }
-
-    h1 {
-        font-size: calc(20px + (32 - 20) * ((100vw - 320px) / (1200 - 320)));
-    }
-}
-
-@media screen and (max-width: 950px) {
-    header {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
     .skills li, .contacts li {
         width: 100%;
     }
-
     .contacts span, .contacts a {
         font-size: calc(15px + (18 - 15) * ((100vw - 320px) / (1200 - 320)));
     }
 }
 
-@media screen and (max-width: 880px) {
-    .my-foto {
-        min-width: 200px;
-        min-height: 200px;
-    }
-
+@media screen and (max-width: 450px) {
     .about-myself span {
         width: 100%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .wrapper-cv {
-        width: 100%;
-    }
-
-    .experience a {
-        width: 90%;
-    }
-
-    footer span, footer a {
-        font-size: calc(15px + (18 - 15) * ((100vw - 320px) / (1200 - 320)));
     }
 }

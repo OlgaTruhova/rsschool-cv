@@ -11,173 +11,184 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="wrapper-cv">
-        <header>
+    <header class="container">
+        <div class="wrapper-header">
             <div class="my-foto">
                 <img src="./img/foto-cv.jpg" alt="img">
             </div>
-            <div class="menu">
-                <div class="name-job">
-                    <span class="name">Volha Trukhava</span>
-                    <span class="job">Junior FRONT-END Developer</span>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#about-myself">ABOUT MYSELF</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#education">EDUCATION</a></li>
+                    <li><a href="#experience">EXPERIENCE</a></li>
+                    <li><a href="#code-exemple">CODE EXAMPLE</a></li>
+                    <li><a href="#languages">LANGUAGES</a></li>
+                    <li><a href="#contacts">CONTACTS</a></li>
+                </ul>
+                <div class="menu">
+                    <h1>Volha Trukhava</h1>
+                    <h3>Junior FRONT-END Developer</h3>
                 </div>
-                <nav class="nav-menu">
-                    <a href="#about-myself">ABOUT MYSELF</a>
-                    <a href="#skills">SKILLS</a>
-                    <a href="#education">EDUCATION</a>
-                    <a href="#experience">EXPERIENCE</a>
-                    <a href="#code-exemple">CODE EXAMPLE</a>
-                    <a href="#languages">LANGUAGES</a>
-                    <a href="#contacts">CONTACTS</a>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <div class="skills-text" id="skills">
-                <img src="./img/technical-skills.png" alt="img">
-                <span>S K I L L S</span></div>
-            <ul class="skills">
-                <li>
-                    <span>HTML5</span>
-                    <div class="skill-html"></div>
-                </li>
-                <li>
-                    <span>CSS3</span>
-                    <div class="skill-CSS"></div>
-                </li>
-                <li>
-                    <span>SCSS, SASS</span>
-                    <div class="skill-scss-sass"></div>
-                </li>
-                <li>
-                    <span>JavaScript</span>
-                    <div class="skill-javascript"></div>
-                </li>
-                <li>
-                    <span>React JS</span>
-                    <div class="skill-reactjs"></div>
-                </li>
-                <li>
-                    <span>Git, GitHub</span>
-                    <div class="skill-github"></div>
-                </li>
-            </ul>
-            <div class="education-text" id="education">
-                <img src="./img/education-html.png" alt="img">
-                <span>E D U C A T I O N</span></div>
-            <div class="education">
-                <div>
-                    <strong>RS School</strong> - course JavaScript/Front-end<br>
-                    <h5>09/2021 - ...</h5>
-                </div>
-                <div>
-                    <strong>IT STEP Computer Academy</strong> - course FRONT-END DEVELOPMENT<br>
-                    <h5>09/2020 - 06/2021</h5>
-                </div>
-                <div>
-                    <strong>Gomel State Technical University named after P.O. Sukhogo</strong> -
-                    Economics and Enterprise Management, Economist-Manager<br>
-                    <h5>09/2004 - 06/2010</h5>
-                </div>
-            </div>
-            <div class="experience-text" id="experience">
-                <img src="./img/experience-comp.png" alt="img">
-                <span>E X P E R I E N C E</span>
-            </div>
-            <div class="experience">
-                <h1>Implementing educational projects:</h1>
-                <a href="https://github.com/OlgaTruhova/HTML-CSS" target="_blank">
-                    <span>Site layout (HTML, SCSS)</span> 
-                    <img src="./img/html-css.png" alt="img">
-                </a>
-                <a href="https://github.com/OlgaTruhova/project-Pizza" target="_blank">
-                    <span>Pizza order constructor (JS)</span> 
-                    <img src="./img/pizza.png" alt="img">
-                </a>
-                <a href="https://github.com/OlgaTruhova/KNB" target="_blank">
-                    <span>'Rock-Paper-Scissors' Game (JS)</span> 
-                    <img src="./img/RPS.png" alt="img">
-                </a>
-                <a href="https://github.com/OlgaTruhova/my-project-BeautyHouse" target="_blank">
-                    <span>Web application 'BeautyHouse' (React)</span> 
-                    <img src="./img/my-project.png" alt="img">
-                </a>
-            </div>
-            <div class="code-exemple-text" id="code-exemple">
-                <img src="./img/code-exemple.png" alt="img">
-                <span>C O D E __ E X A M P L E</span>
-            </div>
-            <div class="code-exemple">
-                <span>You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.</span>
-                <pre><code>
-                    function (str) {
-                        if (str.length % 2 !== 0) {
-                            return str[Math.floor(str.length/2)]
-                        } else {
-                            return str[str.length/2-1] + str[str.length/2]
-                        }
-                    }
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <a class="back_to_top" title="Top">Top</a>
 
-                    function ('abcdef')
-                </code></pre>
+        <div class="heading" id="skills">
+            <img src="./img/technical-skills.png" alt="img">
+            <h2>S K I L L S</h2>
+        </div>
+        <ul class="skills">
+            <li>
+                <span>HTML5</span>
+                <div class="skill-html"></div>
+            </li>
+            <li>
+                <span>CSS3</span>
+                <div class="skill-CSS"></div>
+            </li>
+            <li>
+                <span>SCSS, SASS</span>
+                <div class="skill-scss-sass"></div>
+            </li>
+            <li>
+                <span>JavaScript</span>
+                <div class="skill-javascript"></div>
+            </li>
+            <li>
+                <span>React JS</span>
+                <div class="skill-reactjs"></div>
+            </li>
+            <li>
+                <span>Git, GitHub</span>
+                <div class="skill-github"></div>
+            </li>
+        </ul>
+        <div class="heading" id="education">
+            <img src="./img/education-html.png" alt="img">
+            <h2>E D U C A T I O N</h2>
+        </div>
+        <div class="education">
+            <div>
+                <strong>RS School</strong> - course JavaScript/Front-end<br>
+                <h5>06/2022 - ...</h5>
             </div>
-            <div class="about-myself-text" id="about-myself">
-                <img src="./img/about-myself.png" alt="img">
-                <span>A B O U T __ M Y S E L F</span>
+            <div>
+                <strong>IT STEP Computer Academy</strong> - course FRONT-END DEVELOPMENT<br>
+                <h5>09/2020 - 06/2021</h5>
             </div>
-            <div class="about-myself">
-                <span>Communicative</span>
-                <span>Responsible</span>
-                <span>Goal-oriented</span>
-                <span>Proactive</span>
-                <span>Team player</span>
+            <div>
+                <strong>Gomel State Technical University named after P.O. Sukhogo</strong> -
+                Economics and Enterprise Management, Economist-Manager<br>
+                <h5>09/2004 - 06/2010</h5>
             </div>
-            <div class="languages-text" id="languages">
-                <img src="./img/languages.png" alt="img">
-                <span>L A N G U A G E S</span>
-            </div>
-            <div class="languages">
-                <span>Russian - Native</span>
-                <span>English - A2 (Elementary)</span>
-            </div>
-            <div class="contacts-text" id="contacts">
-                <img src="./img/contacts.png" alt="img">
-                <span>C O N T A C T S</span>
-            </div>
-            <ul class="contacts">
-                <li>
-                    <img src="./img/telephone.png" alt="img">
-                    <span>+375 (29) 690-70-72</span>
-                </li>
-                <li> 
-                    <img src="./img/email-html.png" alt="img">
-                    <span>truhovaolga911@gmail.com</span>
-                </li>
-                <li>
-                    <img src="./img/skype-html.jpg" alt="img">
-                    <span>Olga_Truhova</span>
-                </li>
-                <li>
-                    <img src="./img/linkedin-html.jpg" alt="img">
-                    <a href="https://www.linkedin.com/in/volha-trukhava-461b76214/">Volha Trukhava</a>
-                </li>
-                <li>
-                    <img src="./img/github-html.png" alt="img">
-                    <a href="https://github.com/OlgaTruhova">@OlgaTruhova</a>
-                </li>
-                <li>
-                    <img src="./img/location-html.jpg" alt="img">
-                    <span>Belarus, Gomel</span>
-                </li>
-            </ul>
-        </main>
-        <footer>
+        </div>
+        <div class="heading" id="experience">
+            <img src="./img/experience-comp.png" alt="img">
+            <h2>E X P E R I E N C E</h2>
+        </div>
+        <div class="experience">
+            <h4>Implementing educational projects:</h4>
+            
+            <a href="https://olgatruhova.github.io/project-Pizza/" target="_blank">
+                <span>Pizza order constructor (JS)</span> 
+                <img src="./img/pizza.png" alt="img">
+            </a>
+            <a href="https://olgatruhova.github.io/KNB/" target="_blank">
+                <span>'Rock-Paper-Scissors' Game (JS)</span> 
+                <img src="./img/RPS.png" alt="img">
+            </a>
+            <a href="https://olgatruhova.github.io/HTML-CSS/" target="_blank">
+                <span>Site layout (HTML, SCSS)</span> 
+                <img src="./img/html-css.png" alt="img">
+            </a>
+            <a href="https://github.com/OlgaTruhova/my-project-BeautyHouse" target="_blank">
+                <span>Web application 'BeautyHouse' (React)</span> 
+                <img src="./img/my-project.png" alt="img">
+            </a>
+            <a href="https://olgatruhova.github.io/training-shop/" target="_blank">
+                <span>Web application 'Shop' (React)</span> 
+                <img src="./img/shop.png" alt="img">
+            </a>
+        </div>
+        <div class="heading" id="code-exemple">
+            <img src="./img/code-exemple.png" alt="img">
+            <h2>C O D E __ E X A M P L E</h2>
+        </div>
+        <div class="code-exemple">
+            <span>You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.</span>
+            <pre><code>
+                function (str) {
+                    if (str.length % 2 !== 0) {
+                        return str[Math.floor(str.length/2)]
+                    } else {
+                        return str[str.length/2-1] + str[str.length/2]
+                    }
+                }
+
+                function ('abcdef')
+            </code></pre>
+        </div>
+        <div class="heading" id="about-myself">
+            <img src="./img/about-myself.png" alt="img">
+            <h2>A B O U T __ M Y S E L F</h2>
+        </div>
+        <div class="about-myself">
+            <span>Communicative</span>
+            <span>Responsible</span>
+            <span>Goal-oriented</span>
+            <span>Proactive</span>
+            <span>Team player</span>
+        </div>
+        <div class="heading" id="languages">
+            <img src="./img/languages.png" alt="img">
+            <h2>L A N G U A G E S</h2>
+        </div>
+        <div class="languages">
+            <span>Russian - Native</span>
+            <span>English - A2 (Elementary)</span>
+        </div>
+        <div class="heading" id="contacts">
+            <img src="./img/contacts.png" alt="img">
+            <h2>C O N T A C T S</h2>
+        </div>
+        <ul class="contacts">
+            <li>
+                <img src="./img/telephone.png" alt="img">
+                <span>+375 (29) 690-70-72</span>
+            </li>
+            <li> 
+                <img src="./img/email-html.png" alt="img">
+                <span>truhovaolga911@gmail.com</span>
+            </li>
+            <li>
+                <img src="./img/skype-html.jpg" alt="img">
+                <span>Olga_Truhova</span>
+            </li>
+            <li>
+                <img src="./img/linkedin-html.jpg" alt="img">
+                <a href="https://www.linkedin.com/in/volha-trukhava-461b76214/">Volha Trukhava</a>
+            </li>
+            <li>
+                <img src="./img/github-html.png" alt="img">
+                <a href="https://github.com/OlgaTruhova">@OlgaTruhova</a>
+            </li>
+            <li>
+                <img src="./img/location-html.jpg" alt="img">
+                <span>Belarus, Gomel</span>
+            </li>
+        </ul>
+    </main>
+    <footer class="container">
+        <div class="wrapper-footer">
             <a href="https://github.com/OlgaTruhova">@OlgaTruhova</a>
-            <span>Sep 2021</span>
-            <a href="https://rs.school/js/" target="_blank"><img src="./img/rs_school.svg" alt="img"></a>
-        </footer>
-    </div>
+            <span>June 2022</span>
+            <a href="https://rs.school/js-stage0/" target="_blank"><img src="./img/rs_school.svg" alt="img"></a>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>
-
-
